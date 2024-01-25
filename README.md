@@ -16,9 +16,9 @@ El conjunto de datos proviene de Kaggle y se basa en extracciones de la base de 
 
 ## Estructura del Proyecto
 
-- `data_cleaning.ipynb`: Cuaderno de Jupyter utilizado para la limpieza de datos.
-- `data_analysis.ipynb`: Cuaderno de Jupyter que realiza un análisis exploratorio de los datos.
-- `machine_learning.ipynb`: Cuaderno de Jupyter donde se implementan los modelos de aprendizaje automático.
+- `1_Data_Cleaning.ipynb`: Cuaderno de Jupyter utilizado para la limpieza de datos.
+- `2_EDA.ipynb`: Cuaderno de Jupyter que realiza un análisis exploratorio de los datos.
+- `3_Preprocessing_ML.ipynb'`: Cuaderno de Jupyter donde se implementan los modelos de aprendizaje automático.
 - `README.md`: Documentación principal del proyecto.
 
 ## Limpieza de Datos
@@ -27,15 +27,15 @@ En este paso se trataron NaNs, datos duplicados y se realizaron ajustes en las c
 
 ## Análisis Exploratorio de Datos (EDA)
 
-Se exploraron diversas métricas, como las canciones más reproducidas, número de seguidores de los artistas, géneros musicales, popularidad, etc.
+Se exploraron diversas métricas, como los géneros musicales más reproducidas, número de seguidores de los artistas, popularidad de las canciones, etc.
 
 ## Machine Learning
 
 Se entrenaron varios modelos de aprendizaje automático y se ajustaron hiperparámetros utilizando GridSearchCV. Los mejores modelos se utilizaron para hacer predicciones.
 
-## Conclusiones y Sugerencias de Mejora
+## Conclusiones
 
-Los mejores modelos se identificaron como [lista de modelos]. Como sugerencia de mejora, se podría incluir [sugerencias adicionales].
+Los mejores modelos se identificaron como el Random Forest. 
 
 ## Cómo Ejecutar el Proyecto
 
